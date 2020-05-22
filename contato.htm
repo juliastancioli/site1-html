@@ -2,12 +2,12 @@
 <html>
     <head>
 
-        <!--Referência ao meu arquivo CSS-->
-        <link rel="stylesheet" type="text/css" href="style.css">
-
         <!--Referência ao Bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <!--Referência ao meu arquivo CSS-->
+        <link rel="stylesheet" type="text/css" href="style.css">
 
         <!--Referência aos arquivos de fonte-->
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
@@ -28,7 +28,6 @@
                 <h1>Contato</h1>
             </header>
             
-            <div>
                 <div id="contatos">
                     <p>Telefone: (31)99698-2023</p>
                     <p>Email: julia.stancioli@gmail.com</p>
@@ -38,12 +37,24 @@
 
                 <div id="formulario">
                     <form>
-                        <label for="mensagem">Deixe aqui uma mensagem: </label>
-                        <textarea name="mensagem"></textarea>
-                    </form>
-                </div>
 
-            </div>
+                        <p id="sugestao">Para entrar em contato, digite suas informacoes.</p>
+                        
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Digite seu email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleInputName1">Digite seu nome completo</label>
+                            <input type="name" class="form-control" id="exampleInputName1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+
+                    </form>
+                    
+                </div>
             
                 <footer>Obrigada por visitar o site!</footer>
            

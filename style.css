@@ -1,18 +1,21 @@
+/*Características dos títulos*/
 header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: whitesmoke;
     color: #0c44ed;
     text-align: center;
     font-size: large;
     font-family: 'Raleway', sans-serif;
 }
+
+/*Características base na aba Contatos*/
 #contatos {
     background-color: #0c44ed;
-    float: left;
-    width: 55% ;
-    min-height: 453px;
+    border-radius: 30px;
 }
+
+/*Características das info escritas coomo parágrafo*/
 p {
     background-color: #0c44ed;
     color: whitesmoke;
@@ -22,27 +25,49 @@ p {
     font-size: 25px;
     text-align: center;
 }
-#formulario {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+
+/*Características do texto de direcionamento do usuário para as outras páginas*/
+.direcionamento {
+    clear: both;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+/*Características do texto de indica ações para o usuário conseguir entrar em contato*/
+#sugestao {
     background-color: #0c44ed;
-    float: right;
-    width: 40%;
-    height: 413px;
+    color: whitesmoke;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*C*/
+#formulario {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0c44ed;
     border-color:whitesmoke;
     border-radius: 20px;
     border-width: 10px;
-    justify-content: center;
 }
 label {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
+button {
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #81d1fc;
+    color: #0c44ed;
+}
+
+/*características do rodapé*/
 footer {
     clear: both;
     padding-top: 20px;
@@ -53,13 +78,27 @@ footer {
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
 }
+.foto {
+    float: right;
+    width: 45%;
+}
+.texto {
+    float: left;
+    width: 55%;
+    text-align: justify;
+}
 
+/*Cor base do link*/
 .link{
     color: whitesmoke;
 }
+
+/*Cor do link ao passar o mouse*/
 .link:hover {
     color: #81d1fc;
 }
+
+/*Características do container: presentes em todas as páginas*/
 .container {
     margin: auto;
     width: 960px;
